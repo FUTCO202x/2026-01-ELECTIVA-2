@@ -1,0 +1,3 @@
+Crear un Documento en word con el paso a paso de cada una de las soluciones, el profesor repetira los pasos que coloquen en el documento
+Punto 1: Descifrar el mensaje
+Punto 2: Quien envio el mensaje?
