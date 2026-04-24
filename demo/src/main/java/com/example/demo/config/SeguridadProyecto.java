@@ -13,7 +13,8 @@ public class SeguridadProyecto {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(csrfConfig -> csrfConfig.disable())
-            .authorizeHttpRequests((requests) -> requests.anyRequest().authenticated());
+            .authorizeHttpRequests((requests) -> 
+            requests.requestMatchers("/api/usuarios").authenticated());
         http.httpBasic(withDefaults());
 
         return http.build();
